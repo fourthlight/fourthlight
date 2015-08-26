@@ -1,0 +1,161 @@
+@font-face {
+    font-family: arialround;
+    src: url(arialround.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.absolute-center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.container {
+    height: 570px;
+/*    background-color: green;*/
+}
+
+.svg-container {
+    text-align: center;
+    width: 100%;
+    /* animate to */
+    /* margin: 0 0 0 100px; */
+}
+
+svg {
+    fill: white;
+    height: 300px;
+}
+
+.svg-social {
+    height: 25px;
+}
+
+.title-text {
+    margin-top: 0px;
+    font-size: 106px;
+    text-align: center;
+    font-family: arialround;
+}
+
+.tagline-text {
+    margin-top: 18px;
+    font-size: 32px;
+    text-align: center;
+    font-family: arialround;
+}
+
+#bulb-icon {
+    margin: 0 0 0 0;
+}
+
+.projects-container {
+    display: block;
+    width: 1160px;
+    height: 303px;
+    margin: 0 auto;
+    display: none;
+}
+
+.project {
+    text-align: center;
+    color: black;
+    width: 250px;
+    height: 250px;
+    margin: 0 20px;
+    padding: 0 0 0 0;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+}
+
+#project1 {
+    display: none;
+    background-image: url("sun-sentinels-252.png");
+    background-size: 100%;
+}
+
+#project2 {
+    display: none;
+    background-image: url("sams-252.png");
+    background-size: 100%;
+}
+
+#project3 {
+    display: none;
+    background-image: url("skinparty-252.png");
+    background-size: 100%;
+}
+#project4 {
+    display: none;
+    background-image: url("vrapt-252.png");
+    background-size: 100%;
+}
+
+@media screen and (max-width: 1159px) {
+    .projects-container {
+        width: 800px;
+    }
+    .project {
+        width: 160px;
+        height: 160px;
+        margin-top: 80px;
+    }
+}
+
+.social-container {
+    margin: 22px auto;
+    width: 110px;
+}
+
+.social-box {
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#gh-svg {
+    
+}
+
+#tw-svg {
+    
+}
+
+#mail-svg {
+    
+}
+
+@media screen and (max-width: 800px) {
+    .projects-container {
+        width: 500px;
+        padding-left: 115px;
+    }
+    .project {
+        width: 130px;
+        height: 130px;
+        margin-top: 21px;
+        margin-right: 17px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .projects-container {
+        width: 500px;
+        padding-left: 115px;
+    }
+    .project {
+        width: 300px;
+        height: 300px;
+        margin-top: 21px;
+        margin-right: 17px;
+    }
+}
